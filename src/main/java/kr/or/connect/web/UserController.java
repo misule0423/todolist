@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class UserController {
-
 	private List<User> users = new ArrayList<User>();
 	
 	@PostMapping("/create")
